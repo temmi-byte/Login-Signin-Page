@@ -1,0 +1,181 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+    color: white;
+}
+
+/* Login box */
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box {
+    background: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.subtext {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+.input-group input:focus {
+    outline: 2px solid purple;
+}
+
+/* Input field wrapper */
+.input-container {
+    display: flex;
+    align-items: center;
+    background: #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Input field */
+.input-container input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    outline: none;
+}
+
+/* Icons inside input */
+.input-container i {
+    color: #aaa;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Change eye icon color on hover */
+#togglePassword:hover {
+    color: white;
+}
+
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background:linear-gradient(to right, rgb(65, 65, 231),rgb(179, 8, 179));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: rgb(148, 0, 211);
+}
+
+/* Divider */
+.divider {
+    margin: 20px 0;
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Social login buttons */
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-login button img {
+    width: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.google-btn, .facebook-btn {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background: rgb(17, 16, 16);
+    color: white;
+}
+
+.facebook-btn {
+    background: rgb(17, 16, 16);
+    color: white;
+}
+
+.google-btn:hover {
+    background: #c1351d;
+}
+
+.facebook-btn:hover {
+    background: #1256c4;
+}
+
+/* Register text */
+.register-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-text a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: #333;
+}
